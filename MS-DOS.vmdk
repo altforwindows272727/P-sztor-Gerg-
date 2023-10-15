@@ -1,0 +1,20 @@
+# Disk DescriptorFile
+version=1
+encoding="windows-1250"
+CID=fffffffe
+parentCID=ffffffff
+createType="twoGbMaxExtentSparse"
+
+# Extent description
+RW 4194304 SPARSE "MS-DOS-s001.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "ide"
+ddb.geometry.cylinders = "4161"
+ddb.geometry.heads = "16"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "fda0fd44b22c7ae75d3dc4ebfffffffe"
+ddb.uuid = "60 00 C2 9d 6c f2 65 a0-1b 3c 46 d1 7f 69 45 f2"
+ddb.virtualHWVersion = "20"
